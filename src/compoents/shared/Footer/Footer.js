@@ -14,23 +14,23 @@ const Footer = () => {
 				</p>
 			</div>
 			<div className="grid grid-flow-col gap-8">
-				<Link to="/" className="link link-hover">Home</Link>
-				<Link to="/" className="link link-hover">About us</Link>
-				<Link to="/" className="link link-hover">Contact</Link>
-				<Link to="/" className="link link-hover">Pricing</Link>
+				<Link to="/" className="link hover:text-primary text-lg duration-500">Home</Link>
+				<Link to="/" className="link hover:text-primary text-lg duration-500">About us</Link>
+				<Link to="/" className="link hover:text-primary text-lg duration-500">Contact</Link>
+				<Link to="/" className="link hover:text-primary text-lg duration-500">Pricing</Link>
 			</div>
 			<div>
 				<div className="grid grid-flow-col gap-4 text-xl ">
-					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center">
+					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center hover:text-primary duration-500 cursor-pointer">
 						<FaFacebookF></FaFacebookF>
 					</div>
-					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center">
+					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center hover:text-primary duration-500 cursor-pointer">
 						<FaGithub></FaGithub>
 					</div>
-					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center">
+					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center hover:text-primary duration-500 cursor-pointer">
 						<FaStackOverflow></FaStackOverflow>
 					</div>
-					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center">
+					<div className="card w-16 h-16  bg-base-100 shadow-xl flex justify-center items-center hover:text-primary duration-500 cursor-pointer">
 						<FaTwitter></FaTwitter>
 					</div>
 				</div>
