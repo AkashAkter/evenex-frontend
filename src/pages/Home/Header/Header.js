@@ -11,7 +11,7 @@ const Header = () => {
                 <h1>Startup Grind Global Conference</h1>
                 <ul>
                     <li>
-                        - 14th FEB 2023
+                        - 14 to 15 FEB 2023
                     </li>
                     <li>
                         - NEW YORK CITY

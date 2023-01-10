@@ -2,14 +2,13 @@ header {
     height: 80vh;
     background-color: transparent;
     background-image:
-        linear-gradient(to right, #fc4d08, #f94f43ad),
+        linear-gradient(to right, #fc4d08, #f94f439a),
         url('../../../assests/img/banner.png');
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 300px 0;
 }
 
 .header-content {
@@ -55,7 +54,6 @@ header {
     background-color: white;
     color: black;
     transition: 0.5s;
-
 }
 
 .header-content div {
