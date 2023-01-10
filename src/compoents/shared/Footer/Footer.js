@@ -1,16 +1,20 @@
 import React from "react";
 import footerLogo from "../../../assets/img/footer-logo.png"
+import { Link } from "react-router-dom";
 const Footer = () => {
 	return (
 		<footer className="footer footer-center p-10 bg-white text-base-content rounded">
 			<div>
 				<img src={ footerLogo } alt="logo" />
+				<p className="py-3 text-lg">
+					We bring over 2,600 journalists from the world’s leading <br />publications to Web Summit. They’re part of the reason why the event
+				</p>
 			</div>
-			<div className="grid grid-flow-col gap-4">
-				<a className="link link-hover">About us</a>
-				<a className="link link-hover">Contact</a>
-				<a className="link link-hover">Jobs</a>
-				<a className="link link-hover">Press kit</a>
+			<div className="grid grid-flow-col gap-8">
+				<Link to="/" className="link link-hover">Home</Link>
+				<Link to="/" className="link link-hover">About us</Link>
+				<Link to="/" className="link link-hover">Contact</Link>
+				<Link to="/" className="link link-hover">Pricing</Link>
 			</div>
 			<div>
 				<div className="grid grid-flow-col gap-4">
