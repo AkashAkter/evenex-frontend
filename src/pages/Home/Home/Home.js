@@ -1,5 +1,5 @@
-import React from 'react';
-import Reviews from '../../../compoents/Reviews/Reviews';
+import React, { useRef, useState } from "react";
+import Reviews from "../../../compoents/Reviews/Reviews";
 
 const Home = () => {
 	return (
