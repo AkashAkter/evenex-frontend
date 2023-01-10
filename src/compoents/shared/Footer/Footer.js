@@ -5,7 +5,9 @@ const Footer = () => {
 	return (
 		<footer className="footer footer-center p-10 bg-white text-base-content rounded">
 			<div>
-				<img src={ footerLogo } alt="logo" />
+				<Link to="/">
+					<img src={ footerLogo } alt="logo" />
+				</Link>
 				<p className="py-3 text-lg">
 					We bring over 2,600 journalists from the world’s leading <br />publications to Web Summit. They’re part of the reason why the event
 				</p>
@@ -24,7 +26,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div>
-				<p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+				<p>Copyright © 2023 - All right reserved by evenex</p>
 			</div>
 		</footer>
 	);
