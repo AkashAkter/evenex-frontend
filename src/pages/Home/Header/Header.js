@@ -22,9 +22,9 @@ const Header = () => {
                     <button className='button'> <AiFillPlusCircle className='mr-2' /> Add to Calender</button>
                 </div>
             </div>
-            <div className='header-img'>
+            {/* <div className='header-img'>
                 <img className='object-cover' src="https://demo.xpeedstudio.com/evenex/wp-content/uploads/2020/01/home-1-banner-mike.png" alt="" />
-            </div>
+            </div> */}
         </header>
 
     );

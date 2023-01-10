@@ -2,16 +2,18 @@ header {
     height: 80vh;
     background-color: transparent;
     background-image:
-        linear-gradient(to right, #fc4d08, #f94f4394),
+        linear-gradient(to right, #fc4d08, #f94f43ad),
         url('../../../assests/img/banner.png');
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 300px 0;
 }
 
 .header-content {
+    text-align: center;
     color: whitesmoke;
     margin: 0 0 0 100px;
     width: 50%;
@@ -58,12 +60,14 @@ header {
 
 .header-content div {
     display: flex;
+    justify-content: center;
 }
 
 .header-content .button {
     margin-left: 20px;
     display: flex;
     align-items: center;
+    font-weight: 500;
 }
 
 .header-content .button:hover {
