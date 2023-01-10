@@ -1,9 +1,13 @@
 import React from 'react';
-import { AiFillPlusCircle } from 'react-icons/ai';
-import './Banner.css'
+import './Banner.css';
 
 const Banner = () => {
     return (
+<<<<<<< HEAD
+        <div>
+            
+        </div>
+=======
         <header>
             <div className='header-content'>
                 <h3># Events for Startups</h3>
@@ -25,6 +29,7 @@ const Banner = () => {
                 <img className='object-cover' src="https://demo.xpeedstudio.com/evenex/wp-content/uploads/2020/01/home-1-banner-mike.png" alt="" />
             </div> */}
         </header>
+>>>>>>> 32bb9b5ec8cfa7d716e1bfa05ca94b7737704c96
     );
 };
 
