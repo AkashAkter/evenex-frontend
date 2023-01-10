@@ -1,62 +1,62 @@
 [
-    {
-        "id": "1",
-        "image": "https://i.ibb.co/RchSMSV/1684-Supercharge-Webinar-2-e1656613784447-1.png",
-        "title": "Supercharge your Marketing Strategy with Social",
-        "location": "Online",
-        "price": "Free",
-        "date_time": "January 10, 2023",
-        "available_seats": "10",
-        "host_name": "sproutsocial"
-    },
-    {
-        "id": "2",
-        "image": "https://i.ibb.co/7CH8S7z/70947dff-e1b6-4e34-9cc0-97744f8fc2ed.png",
-        "title": "Thriving in a Remote Work Culture",
-        "location": "Online",
-        "price": "Free",
-        "date_time": "January 11, 2023",
-        "available_seats": "12",
-        "host_name": "Palo IT"
-    },
-    {
-        "id": "3",
-        "image": "https://i.ibb.co/rZwJ60K/CES-Webinar-On-Demand-Thumbnail-1.png",
-        "title": "Planning, Pitching and Placements: Bringing It All Together",
-        "location": "Online",
-        "price": "Free",
-        "date_time": "January 12, 2023",
-        "available_seats": "14",
-        "host_name": "Cision"
-    },
-    {
-        "id": "4",
-        "image": "https://i.ibb.co/HFfCchJ/Making-Your-Metrics-Matter-Webinar-on-demand.png",
-        "title": "Making Your Metrics Matter: Building a Strategy for Impactful PR",
-        "location": "Online",
-        "price": "Free",
-        "date_time": "January 13, 2023",
-        "available_seats": "16",
-        "host_name": "Cision"
-    },
-    {
-        "id": "5",
-        "image": "https://i.ibb.co/wW7XBq1/2020-Q4-Webinar-CES-Pitching-Assets-Uberflip-No-CTA-500-X272.png",
-        "title": "Event Tech Tips for Corporate Planners",
-        "location": "Online",
-        "price": "Free",
-        "date_time": "January 14, 2023",
-        "available_seats": "18",
-        "host_name": "Core Apps"
-    },
-    {
-        "id": "6",
-        "image": "https://i.ibb.co/0BNx70W/webinar-featured-versatility-custom-item-types-2x.png",
-        "title": "All Versatility, All the Time",
-        "location": "Online",
-        "price": "Free",
-        "date_time": "January 15, 2023",
-        "available_seats": "20",
-        "host_name": "Wrike Webinars"
-    }
+	{
+		"id": "1",
+		"image": "https://i.ibb.co/RchSMSV/1684-Supercharge-Webinar-2-e1656613784447-1.png",
+		"title": "Supercharge your Marketing Strategy with Social",
+		"location": "Online",
+		"price": "Free",
+		"date_time": "January 10, 2023",
+		"available_seats": "10",
+		"host_name": "sproutsocial"
+	},
+	{
+		"id": "2",
+		"image": "https://i.ibb.co/7CH8S7z/70947dff-e1b6-4e34-9cc0-97744f8fc2ed.png",
+		"title": "Thriving in a Remote Work Culture",
+		"location": "Online",
+		"price": "Free",
+		"date_time": "January 11, 2023",
+		"available_seats": "12",
+		"host_name": "Palo IT"
+	},
+	{
+		"id": "3",
+		"image": "https://i.ibb.co/rZwJ60K/CES-Webinar-On-Demand-Thumbnail-1.png",
+		"title": "Planning, Pitching and Placements: Bringing It All Together",
+		"location": "Online",
+		"price": "Free",
+		"date_time": "January 12, 2023",
+		"available_seats": "14",
+		"host_name": "Cision"
+	},
+	{
+		"id": "4",
+		"image": "https://i.ibb.co/HFfCchJ/Making-Your-Metrics-Matter-Webinar-on-demand.png",
+		"title": "Making Your Metrics Matter: Building a Strategy for Impactful PR",
+		"location": "Online",
+		"price": "Free",
+		"date_time": "January 13, 2023",
+		"available_seats": "16",
+		"host_name": "Cision"
+	},
+	{
+		"id": "5",
+		"image": "https://i.ibb.co/wW7XBq1/2020-Q4-Webinar-CES-Pitching-Assets-Uberflip-No-CTA-500-X272.png",
+		"title": "Event Tech Tips for Corporate Planners",
+		"location": "Online",
+		"price": "Free",
+		"date_time": "January 14, 2023",
+		"available_seats": "18",
+		"host_name": "Core Apps"
+	},
+	{
+		"id": "6",
+		"image": "https://i.ibb.co/0BNx70W/webinar-featured-versatility-custom-item-types-2x.png",
+		"title": "All Versatility, All the Time",
+		"location": "Online",
+		"price": "Free",
+		"date_time": "January 15, 2023",
+		"available_seats": "20",
+		"host_name": "Wrike Webinars"
+	}
 ]
