@@ -14,25 +14,25 @@ const Reviews = () => {
 	return (
 		<>
 			<Swiper
-				effect={ "coverflow" }
-				grabCursor={ true }
-				centeredSlides={ true }
-				slidesPerView={ "auto" }
-				coverflowEffect={ {
+				effect={"coverflow"}
+				grabCursor={true}
+				centeredSlides={true}
+				slidesPerView={"auto"}
+				coverflowEffect={{
 					rotate: 50,
 					stretch: 0,
 					depth: 100,
 					modifier: 1,
 					slideShadows: true,
-				} }
-				pagination={ {
+				}}
+				pagination={{
 					clickable: true,
-				} }
-				modules={ [EffectCoverflow, Pagination] }
-				autoplay={ {
+				}}
+				modules={[EffectCoverflow, Pagination]}
+				autoplay={{
 					delay: 2500,
 					disableOnInteraction: false,
-				} }
+				}}
 				className="mySwiper"
 			>
 				<SwiperSlide>
@@ -41,7 +41,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -64,7 +64,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -92,7 +92,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -115,7 +115,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -142,7 +142,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -165,7 +165,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -193,7 +193,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -216,7 +216,7 @@ const Reviews = () => {
 							<div className="flex justify-between p-4">
 								<div className="flex space-x-4">
 									<div>
-										<img src={ img } alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+										<img src={img} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
 									</div>
 									<div>
 										<h4 className="font-bold">Leroy Jenkins</h4>
@@ -237,9 +237,6 @@ const Reviews = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-
-
-
 
 			</Swiper>
 		</>
