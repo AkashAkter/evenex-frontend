@@ -5,8 +5,10 @@ import Header from '../Header/Header';
 const Home = () => {
 	return (
 		<>
-			<Navbar />
-			<Header />
+			<div className='header'>
+				<Navbar />
+				<Header />
+			</div>
 			<div></div>
 		</>
 	);

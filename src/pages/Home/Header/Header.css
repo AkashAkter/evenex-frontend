@@ -1,9 +1,14 @@
-header {
-    height: 80vh;
+.header {
+    height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('../../../assests/banner.png') no-repeat center fixed;
+    opacity: 0.93;
     background-position: bottom;
     background-size: cover;
+}
+
+header {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,24 +17,30 @@ header {
 .header-content {
     color: whitesmoke;
     text-align: center;
+    margin: 150px;
 }
 
 .header-content h2 {
-    font-size: 4vmin;
+    font-size: 5vmin;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yeon Sung', cursive;
 }
 
 .line {
-    width: 375px;
+    width: 200px;
     height: 4px;
     background: #EE0034;
-    margin: 10px auto 0 auto;
+    margin: 0 auto 10px auto;
     border-radius: 5px;
 }
 
 .header-content h1 {
-    font-size: 9vmin;
+    font-size: 11vmin;
+    font-weight: bolder;
     color: #EE0034;
-    margin-bottom: 0;
+    text-shadow: 0px 0px 6px #F94E43;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yeon Sung', cursive;
 }
 
 .header-content h4 {
@@ -40,9 +51,10 @@ header {
 .ctn {
     padding: 8px 35px;
     background: #EE0034;
-    border-radius: 30px;
+    border-radius: 15px;
     color: whitesmoke;
     font-size: 2vmin;
+    font-family: 'Carter One', cursive;
 }
 
 a {
