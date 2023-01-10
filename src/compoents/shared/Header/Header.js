@@ -50,7 +50,6 @@ const Header = () => {
 						</li>
 						<li><a href='/' className='hover:text-[#F94E43] font-semibold text-sm'>About</a></li>
 						<li><a href='/' className='hover:text-[#F94E43] font-semibold text-sm'>Contact</a></li>
-						<li><a href='/' className='hover:text-[#F94E43] font-semibold text-sm'>Contact</a></li>
 						<li><a href='/' className='hover:text-[#F94E43] font-semibold text-sm'>
 							<BsSearch />
 						</a></li>
