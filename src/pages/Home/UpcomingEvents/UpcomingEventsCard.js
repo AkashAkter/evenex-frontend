@@ -13,7 +13,7 @@ const UpcomingEventsCard = ({ e }) => {
                     <div className="font-bold text-xl hover:text-red-500 cursor-pointer text-center mb-7">{title}</div>
                     <div className='flex justify-between'>
                         <div className="indicator">
-                            <span className="indicator-item badge badge-primary left-20 font-bold text-white py-1">{price}</span>
+                            <span className="indicator-item badge badge-primary top-[10px] left-[86px] font-bold text-white py-1">{price}</span>
                             <p className="text-gray-700"><span className='font-bold'>Platform:</span> {location}</p>
                         </div>
                         <p className="text-gray-700"><span className='font-bold'>Available Seats:</span> {available_seats}</p>
