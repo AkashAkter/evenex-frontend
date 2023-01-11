@@ -7,7 +7,7 @@ const Banner = () => {
     <header>
       <div className='header-content'>
         <h3># Events for Startups</h3>
-        <h1>Startup Grind Global Conference</h1>
+        <h1>Startup Grind Global <br /> Conference</h1>
         <ul>
           <li>
             - 14 to 15 FEB 2023
@@ -16,9 +16,9 @@ const Banner = () => {
             - NEW YORK CITY
           </li>
         </ul>
-        <div>
+        <div className="lg:flex md:flex justify-center items-center text-center">
           <button className='purches-button'>Purches Tickets</button>
-          <button className='button'> <AiFillPlusCircle className='mr-2' /> Add to Calender</button>
+          <button className='button flex items-center mx-auto lg:mx-4'> <AiFillPlusCircle className='mr-2' /> Add to Calender</button>
         </div>
       </div>
     </header>
